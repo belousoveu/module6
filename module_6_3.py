@@ -29,8 +29,8 @@ class Eagle:
 
 
 class Pegasus(Horse, Eagle):
-    def __init__(self):
-        super().__init__()
+    # def __init__(self):
+    #     super().__init__()
 
     def __str__(self):
         return f"Pegasus: x_distance={self.x_distance}, y_distance={self.y_distance}, sound={self.sound}"
